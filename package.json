@@ -1,0 +1,14 @@
+{
+  "name": "idf-service-demo",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "web": "node server.js",
+    "data": "node data-site/server.js",
+    "support": "node support-site/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
